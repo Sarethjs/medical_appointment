@@ -658,10 +658,14 @@ img {
 
 .hero-slides .single-hero-slide h2 {
   font-size: 60px;
+  /*
   background: -webkit-linear-gradient(left, #79cacd, #572364);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /*color: #000;*/
+  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
   margin-bottom: 30px;
 
 }
