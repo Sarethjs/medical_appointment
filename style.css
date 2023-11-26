@@ -645,8 +645,9 @@ img {
 }
 
 .hero-slides .single-hero-slide h4 {
-  color: #ffffff;
+  color: #fff;
   margin-bottom: 10px;
+  display: none;
 }
 
 @media only screen and (max-width: 767px) {
@@ -657,8 +658,12 @@ img {
 
 .hero-slides .single-hero-slide h2 {
   font-size: 60px;
-  color: #ffffff;
+  background: -webkit-linear-gradient(left, #79cacd, #572364);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /*color: #000;*/
   margin-bottom: 30px;
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
